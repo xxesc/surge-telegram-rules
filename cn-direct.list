@@ -146,7 +146,7 @@ DOMAIN-SUFFIX,tapimg.com
 DOMAIN-SUFFIX,4399.com
 DOMAIN-SUFFIX,7k7k.com
 
-# ---------- å¬å±/è¿è¥å/éè ----------
+# ---------- å¬å±/è¿è¥å ----------
 DOMAIN-SUFFIX,gov.cn
 DOMAIN-SUFFIX,edu.cn
 DOMAIN-SUFFIX,weather.com.cn
@@ -157,12 +157,6 @@ DOMAIN-SUFFIX,chinatelecom.com.cn
 DOMAIN-SUFFIX,189.cn
 DOMAIN-SUFFIX,chinaunicom.com.cn
 DOMAIN-SUFFIX,10010.com
-DOMAIN-SUFFIX,icbc.com.cn
-DOMAIN-SUFFIX,ccb.com
-DOMAIN-SUFFIX,boc.cn
-DOMAIN-SUFFIX,abchina.com
-DOMAIN-SUFFIX,cmbchina.com
-DOMAIN-SUFFIX,pingan.com.cn
 
 # ---------- é³ä¹/ç½ç/å·¥å· ----------
 DOMAIN-SUFFIX,kuwo.cn
@@ -171,3 +165,88 @@ DOMAIN-SUFFIX,115.com
 DOMAIN-SUFFIX,123pan.com
 DOMAIN-SUFFIX,wegame.com.cn
 DOMAIN-SUFFIX,wuyou.com.cn
+
+# ---------- é¶è¡/éè ----------
+# å½æå¤§è¡
+DOMAIN-SUFFIX,icbc.com.cn
+DOMAIN-SUFFIX,95588.cn
+DOMAIN-SUFFIX,ccb.com
+DOMAIN-SUFFIX,ccb.cn
+DOMAIN-SUFFIX,boc.cn
+DOMAIN-SUFFIX,95566.cn
+DOMAIN-SUFFIX,abchina.com
+DOMAIN-SUFFIX,95599.cn
+DOMAIN-SUFFIX,bankcomm.com
+DOMAIN-SUFFIX,95559.com.cn
+DOMAIN-SUFFIX,psbc.com
+DOMAIN-SUFFIX,psbc.com.cn
+DOMAIN-SUFFIX,95580.cn
+# è¡ä»½å¶é¶è¡
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,cmb.com
+DOMAIN-SUFFIX,95555.cn
+DOMAIN-SUFFIX,citicbank.com
+DOMAIN-SUFFIX,ecitic.com
+DOMAIN-SUFFIX,spdb.com.cn
+DOMAIN-SUFFIX,cmbc.com.cn
+DOMAIN-SUFFIX,cmbc.com
+DOMAIN-SUFFIX,cebbank.com
+DOMAIN-SUFFIX,95595.com.cn
+DOMAIN-SUFFIX,cib.com.cn
+DOMAIN-SUFFIX,95561.cn
+DOMAIN-SUFFIX,pingan.com
+DOMAIN-SUFFIX,pingan.com.cn
+DOMAIN-SUFFIX,95511.cn
+DOMAIN-SUFFIX,hxb.com.cn
+DOMAIN-SUFFIX,95577.cn
+DOMAIN-SUFFIX,cgbchina.com.cn
+DOMAIN-SUFFIX,czbank.com
+# ååè¡/å¶ä»
+DOMAIN-SUFFIX,bankofbeijing.com.cn
+DOMAIN-SUFFIX,95526.cn
+DOMAIN-SUFFIX,bosc.cn
+DOMAIN-SUFFIX,jsbchina.cn
+DOMAIN-SUFFIX,nbcb.com.cn
+DOMAIN-SUFFIX,njcb.com.cn
+DOMAIN-SUFFIX,hsbank.com.cn
+DOMAIN-SUFFIX,cbhb.com.cn
+DOMAIN-SUFFIX,hfbank.com.cn
+# å¤èµé¶è¡ï¼ä¸­å½ï¼
+DOMAIN-SUFFIX,hsbc.com.cn
+DOMAIN-SUFFIX,citibank.com.cn
+DOMAIN-SUFFIX,hkbea.com.cn
+# é¶è/æ¯ä»
+DOMAIN-SUFFIX,unionpay.com
+DOMAIN-SUFFIX,95516.com
+DOMAIN-SUFFIX,95516.cn
+DOMAIN-SUFFIX,chinaums.com
+DOMAIN-SUFFIX,antfin.com
+DOMAIN-SUFFIX,antgroup.com
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,jdpay.com
+DOMAIN-SUFFIX,duxiaoman.com
+DOMAIN-SUFFIX,bestpay.com.cn
+DOMAIN-SUFFIX,cmpay.com
+DOMAIN-SUFFIX,lakala.com
+DOMAIN-SUFFIX,lianlianpay.com
+# ä¿é©
+DOMAIN-SUFFIX,zhongan.com
+DOMAIN-SUFFIX,picc.com.cn
+DOMAIN-SUFFIX,chinalife.com.cn
+DOMAIN-SUFFIX,cpic.com.cn
+DOMAIN-SUFFIX,taikang.com
+DOMAIN-SUFFIX,newchinalife.com
+# è¯å¸/çè´¢
+DOMAIN-SUFFIX,eastmoney.com
+DOMAIN-SUFFIX,dfcfw.com
+DOMAIN-SUFFIX,10jqka.com.cn
+DOMAIN-SUFFIX,myhexin.com
+DOMAIN-SUFFIX,gtja.com
+DOMAIN-SUFFIX,htsc.com.cn
+DOMAIN-SUFFIX,gf.com.cn
+DOMAIN-SUFFIX,xueqiu.com
+DOMAIN-SUFFIX,1234567.com.cn
+DOMAIN-SUFFIX,futu.com
+DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,itiger.com
+DOMAIN-SUFFIX,tigerbrokers.com
