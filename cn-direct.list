@@ -1,0 +1,173 @@
+# å½åå¸¸ç¨ååç´è¿è§åéï¼ä¾ RULE-SET å¼ç¨ï¼
+# ç¨æ³ï¼RULE-SET,https://cdn.jsdelivr.net/gh/xxesc/surge-telegram-rules@main/cn-direct.list,DIRECT
+# éå GEOIP,CN,DIRECT ååºå½å IPï¼æªå¹éçå½å¤æµéèµ° FINAL ä»£ç
+
+# ---------- æç´¢/é¨æ· ----------
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,hao123.com
+DOMAIN-SUFFIX,so.com
+DOMAIN-SUFFIX,360.cn
+DOMAIN-SUFFIX,qihoo.com
+DOMAIN-SUFFIX,sogou.com
+DOMAIN-SUFFIX,sm.cn
+DOMAIN-SUFFIX,sina.com.cn
+DOMAIN-SUFFIX,sina.com
+DOMAIN-SUFFIX,sinaimg.cn
+DOMAIN-SUFFIX,sinajs.cn
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weibo.cn
+DOMAIN-SUFFIX,sohu.com
+DOMAIN-SUFFIX,netease.com
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.com
+DOMAIN-SUFFIX,163yun.com
+DOMAIN-SUFFIX,youdao.com
+DOMAIN-SUFFIX,people.com.cn
+DOMAIN-SUFFIX,xinhuanet.com
+DOMAIN-SUFFIX,cctv.com
+DOMAIN-SUFFIX,cntv.cn
+DOMAIN-SUFFIX,chinanews.com
+DOMAIN-SUFFIX,china.com.cn
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,zhstatic.com
+
+# ---------- è¾è®¯ç³» ----------
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qq.com.cn
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,tencent-cloud.net
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,tencentmusic.com
+
+# ---------- é¿éç³» ----------
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,taobaocdn.com
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,1688.com
+DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-SUFFIX,idlefish.com
+
+# ---------- çµå/çæ´» ----------
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,jdcloud.com
+DOMAIN-SUFFIX,jd.hk
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,yangkeduo.com
+DOMAIN-SUFFIX,pddpic.com
+DOMAIN-SUFFIX,vip.com
+DOMAIN-SUFFIX,vipstatic.com
+DOMAIN-SUFFIX,suning.com
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,ele.me
+DOMAIN-SUFFIX,didiglobal.com
+DOMAIN-SUFFIX,didi.com
+DOMAIN-SUFFIX,xiaojukeji.com
+DOMAIN-SUFFIX,ctrip.com
+DOMAIN-SUFFIX,c-ctrip.com
+DOMAIN-SUFFIX,trip.com
+DOMAIN-SUFFIX,qunar.com
+DOMAIN-SUFFIX,qunarzz.com
+DOMAIN-SUFFIX,12306.cn
+DOMAIN-SUFFIX,sf-express.com
+DOMAIN-SUFFIX,cainiao.com
+DOMAIN-SUFFIX,zto.com
+DOMAIN-SUFFIX,yto.net.cn
+DOMAIN-SUFFIX,sto.cn
+
+# ---------- è§é¢/åå®¹ ----------
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,biliimg.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,tudou.com
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,iqiyipic.com
+DOMAIN-SUFFIX,mgtv.com
+DOMAIN-SUFFIX,hunantv.com
+DOMAIN-SUFFIX,huya.com
+DOMAIN-SUFFIX,douyu.com
+DOMAIN-SUFFIX,zhanqi.tv
+DOMAIN-SUFFIX,acfun.cn
+
+# ---------- å­èç³» ----------
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,iesdouyin.com
+DOMAIN-SUFFIX,volccdn.com
+
+# ---------- ç¤¾åº/ç¤¾äº¤ ----------
+DOMAIN-SUFFIX,kuaishou.com
+DOMAIN-SUFFIX,gifshow.com
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,smzdm.com
+DOMAIN-SUFFIX,hupu.com
+DOMAIN-SUFFIX,csdn.net
+DOMAIN-SUFFIX,cnblogs.com
+DOMAIN-SUFFIX,jianshu.com
+
+# ---------- ç§æå¬å¸ ----------
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,xiaomi.com
+DOMAIN-SUFFIX,miui.com
+DOMAIN-SUFFIX,huawei.com
+DOMAIN-SUFFIX,hicloud.com
+DOMAIN-SUFFIX,huaweicloud.com
+DOMAIN-SUFFIX,vmall.com
+DOMAIN-SUFFIX,honor.cn
+DOMAIN-SUFFIX,oppo.com
+DOMAIN-SUFFIX,vivo.com
+DOMAIN-SUFFIX,lenovo.com.cn
+DOMAIN-SUFFIX,kingsoft.com
+DOMAIN-SUFFIX,wps.cn
+DOMAIN-SUFFIX,feishu.cn
+DOMAIN-SUFFIX,mihoyo.com
+DOMAIN-SUFFIX,miyoushe.com
+DOMAIN-SUFFIX,taptap.cn
+DOMAIN-SUFFIX,tapimg.com
+DOMAIN-SUFFIX,4399.com
+DOMAIN-SUFFIX,7k7k.com
+
+# ---------- å¬å±/è¿è¥å/éè ----------
+DOMAIN-SUFFIX,gov.cn
+DOMAIN-SUFFIX,edu.cn
+DOMAIN-SUFFIX,weather.com.cn
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,chinamobile.com
+DOMAIN-SUFFIX,10086.cn
+DOMAIN-SUFFIX,chinatelecom.com.cn
+DOMAIN-SUFFIX,189.cn
+DOMAIN-SUFFIX,chinaunicom.com.cn
+DOMAIN-SUFFIX,10010.com
+DOMAIN-SUFFIX,icbc.com.cn
+DOMAIN-SUFFIX,ccb.com
+DOMAIN-SUFFIX,boc.cn
+DOMAIN-SUFFIX,abchina.com
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,pingan.com.cn
+
+# ---------- é³ä¹/ç½ç/å·¥å· ----------
+DOMAIN-SUFFIX,kuwo.cn
+DOMAIN-SUFFIX,kugou.com
+DOMAIN-SUFFIX,115.com
+DOMAIN-SUFFIX,123pan.com
+DOMAIN-SUFFIX,wegame.com.cn
+DOMAIN-SUFFIX,wuyou.com.cn
