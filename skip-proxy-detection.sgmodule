@@ -1,0 +1,23 @@
+#!name=å½åAppè·³è¿ä»£çæ£æµ
+#!desc=åè¡æé¶/ç½ä¸å½ç½/12306/å»ºè¡çæ´»/é®å¨é¶è¡/éä¿¡è¡ç¨å¡ç­ App è·³è¿ä»£çæ£æµï¼ç¤¾åºæ¹æ¡æ´çï¼
+#!system=ios
+#!homepage=https://github.com/xxesc/surge-telegram-rules
+
+# ============ è¯´æ ============
+# åçï¼
+# 1. é¨å App éè¿ msmp.abchina.com.cn ç­ååä¸æ¥"è®¾å¤æ¯å¦æVPN/ä»£ç"
+#    â ç¨ REJECT ç´æ¥ææ­ä¸æ¥ï¼æå¡å¨æ¶ä¸å°æ£æµç»æ
+# 2. é¨å Appï¼ç½ä¸å½ç½/å»ºè¡çæ´»/12306ç­ï¼éè¿è®¿é® www.baidu.comã
+#    passenger.12306.cn ç­ååæ¢æµ"æµéæ¯å¦è¢«ä»£çå¤ç"
+#    â ç¨ skip-proxy è®©è¿äºååç»è¿ä»£çç´æ¥å¤çï¼App æç¥ä¸å°ä»£ç
+# æ¥æºï¼Tartarus2014/For-own-useãjnlaoshu/MySelf ç­ç¤¾åºéç½®æ´ç
+
+[Rule]
+# åè¡æé¶ï¼VPN æ£æµä¸æ¥ååï¼ç¤¾åºéç¨æ¹æ¡ï¼
+DOMAIN-SUFFIX,msmp.abchina.com.cn,REJECT,pre-matching
+
+[General]
+# ç½ä¸å½ç½ãå»ºè¡çæ´»ãé®å¨é¶è¡ãåè¡ã12306 ç­ App çä»£çæ¢æµåå
+skip-proxy = %APPEND% www.baidu.com,passenger.12306.cn,www.12306.cn,yunbusiness.ccb.com,www.abchina.com.cn,login-service.mobile-bank.psbc.com,mobile-bank.psbc.com
+# çµä¿¡/å¹¿çµä¸é®ç»å½ç­éè¦çå® IP çæå¡
+always-real-ip = %APPEND% easy-login.10099.com.cn,open.e.189.cn,id6.me
