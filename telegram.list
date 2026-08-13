@@ -1,0 +1,28 @@
+# Telegram 分流规则集（供 RULE-SET 引用）
+# 用法：RULE-SET,/path/to/telegram.list,Proxy
+# 注意：规则集文件不包含策略名和 [Rule] 段头！
+
+# ---------- Telegram 域名 ----------
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,tdesktop.com
+
+# ---------- Telegram 服务器 IP 段 ----------
+IP-CIDR,91.105.192.0/23,no-resolve
+IP-CIDR,91.108.4.0/22,no-resolve
+IP-CIDR,91.108.8.0/22,no-resolve
+IP-CIDR,91.108.12.0/22,no-resolve
+IP-CIDR,91.108.16.0/22,no-resolve
+IP-CIDR,91.108.20.0/22,no-resolve
+IP-CIDR,91.108.36.0/23,no-resolve
+IP-CIDR,91.108.38.0/23,no-resolve
+IP-CIDR,91.108.56.0/22,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,185.76.151.0/24,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28::/32,no-resolve
