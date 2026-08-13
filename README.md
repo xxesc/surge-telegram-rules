@@ -1,5 +1,6 @@
 # Surge Telegram 分流规则
 
+
 把 Telegram 的域名和服务器 IP 段分流到代理节点，解决国内无法直连 Telegram 的问题。
 
 ## 使用方法
@@ -10,17 +11,21 @@
 
 > 规则里的目标策略默认是 `Proxy`，如果你的配置里策略组叫别的名字（如 `节点选择`、`🚀 代理` 等），替换成你自己的策略组名即可。
 
-### 方式二：RULE-SET 精简版（自动更新）
+### 方式二：RULE-SET 精简版
+
+用 [telegram.list](telegram.list)（规则集格式，不含策略名），策略写在 RULE-SET 行上：
 
 ```ini
 [Rule]
-# Telegram 域名规则集（Loyalsoldier，jsDelivr CDN 加速，国内可访问）
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/telegram.txt,你的策略组名
-# Telegram IP 规则集
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/telegramcidr.txt,你的策略组名
+# 本地文件（下载 telegram.list 到 Surge 的 App Group 目录后引用）
+RULE-SET,/private/var/mobile/Containers/Shared/AppGroup/<你的SurgeAppGroupID>/telegram.list,Proxy
+
+# 或者用 URL（jsDelivr CDN，国内可访问，自动更新）
+RULE-SET,https://cdn.jsdelivr.net/gh/xxesc/surge-telegram-rules@main/telegram.list,Proxy
 ```
 
-Surge 默认每 24 小时自动更新一次规则集。
+> ⚠️ RULE-SET 引用的文件必须是**规则集格式**（每行 `类型,值`，不带策略名、没有 `[Rule]` 段头）。
+> 不要用 surge-telegram-rules.conf 当规则集文件，否则会报「外部规则集解析失败」。
 
 ## 规则内容
 
